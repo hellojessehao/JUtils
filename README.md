@@ -4,12 +4,12 @@ JUtils项目介绍
 如页面跳转、弹吐司、打印日志时等。<br>
 项目依赖：<br>
 1.在工程根目录下build.gradle相应位置加入如下代码：<br>
-	allprojects {<br>
-		repositories {<br>
-			...<br>
-			maven { url 'https://jitpack.io' }<br>
-		}<br>	
-	}<br>
+        allprojects {<br>
+                repositories {<br>
+                        ...<br>
+                        maven { url 'https://jitpack.io' }<br>
+                }<br>	
+        }<br>
 2.在需要依赖该项目的模块下的build.gradle相应位置加入如下代码：<br>
 	dependencies {<br>
 		implementation 'com.github.hellojessehao:JUtils:Tag'<br>
