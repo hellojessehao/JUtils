@@ -5,12 +5,12 @@ JUtils项目介绍
 添加依赖：
 1.在工程根目录下build.gradle相应位置加入如下代码：
 
-		 allprojects {
-			 repositories {
-				...
-				maven { url 'https://jitpack.io' }
-			}
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
 		}
+	}
 2.在需要依赖该项目的模块下的build.gradle相应位置加入如下代码：
 
     dependencies {
