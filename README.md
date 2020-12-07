@@ -11,9 +11,9 @@ JUtils项目介绍
                 }<br>	
         }<br>
 2.在需要依赖该项目的模块下的build.gradle相应位置加入如下代码：<br>
-	dependencies {<br>
-		implementation 'com.github.hellojessehao:JUtils:Tag'<br>
-	}<br>
+        dependencies {<br>
+                implementation 'com.github.hellojessehao:JUtils:Tag'<br>
+        }<br>
 <br>
 使用问题中遇到问题或有好的建议欢迎给我的csdn博客发私信。<br>
 csdn首页：https://blog.csdn.net/yonghuming_jesse
