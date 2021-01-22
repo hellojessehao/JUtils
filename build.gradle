@@ -17,6 +17,9 @@ buildscript {
             url 'https://developer.huawei.com/repo/'
         }
 		jcenter()
+        maven{
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
     }
     dependencies {
         classpath 'com.huawei.ohos:hap:2.4.0.1'
@@ -32,5 +35,8 @@ allprojects {
             url 'https://developer.huawei.com/repo/'
         }
 		jcenter()
+        maven{
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
     }
 }
