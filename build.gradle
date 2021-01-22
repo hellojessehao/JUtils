@@ -16,9 +16,15 @@ buildscript {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-		jcenter()
+//		jcenter()
         maven{
             url 'https://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        maven {
+            url 'https://jitpack.io'
+        }
+        jcenter(){
+            url 'https://jcenter.bintray.com/'
         }
     }
     dependencies {
@@ -34,9 +40,15 @@ allprojects {
         maven {
             url 'https://developer.huawei.com/repo/'
         }
-		jcenter()
+//		jcenter()
         maven{
             url 'https://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        maven {
+            url 'https://jitpack.io'
+        }
+        jcenter(){
+            url 'https://jcenter.bintray.com/'
         }
     }
 }
